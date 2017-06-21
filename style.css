@@ -36,7 +36,7 @@ header {
 }
 
 #response1 {
-	margin-top: 20px;
+	margin-top: 7px;
 }
 
 .img-container {
@@ -110,7 +110,7 @@ button:hover {
 
 @media screen and (max-width: 420px) {
 	header {
-		font-size: 35pt;
+		font-size: 50pt;
 	}
 }
 
@@ -124,14 +124,106 @@ button:hover {
 	}
 }
 
+
 @media screen and (max-width: 1200px) {
 	.col-md-4 {
-		width: 95%;
+		width: 32%;
 	}
 }
 
+@media screen and (max-width: 992px) {
+	.col-md-4 {
+		width: 76%;
+	}
+}
 
+@media screen and (max-width: 990px) {
+	.container {
+		padding-left: 12%;
+	}
+}
 
+@media screen and (max-width: 768px) {
+	.body-container {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 755px) {
+	.container {
+		padding-left: 14%;
+	}
+	.col-md-4 {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	.container {
+		padding-left: 11%;
+	}
+	.col-md-4 {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.container {
+		padding-left: 4%;
+	}
+	.col-md-4 {
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	.container {
+		padding-left: 0;
+	}
+	.col-md-4 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	.container {
+		padding-left: 0;
+	}
+	.col-md-4 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 456px) {
+	.img-container {
+		height: 247px;
+	}
+}
+
+@media screen and (max-width: 451px) {
+	.body-container {
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.img-container {
+		height: 235px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.img-container {
+		height: 220px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.response {
+		padding-left: 67px;
+		padding-right: 67px;
+	}
+}
 /*@media screen and (max-width: 480px) {
 	header {
 		margin: 0px;
